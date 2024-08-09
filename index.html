@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nano Screen Protectors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #fff;
+        }
+        header, footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #f8f8f8;
+        }
+        header nav a, footer a {
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        header .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .banner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60vh;
+            background: url('banner-image.jpg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+        }
+        .banner h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .banner button {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        .banner button:hover {
+            background-color: #555;
+        }
+        .content {
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        .product {
+            text-align: center;
+            background-color: #f8f8f8;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .product h2 {
+            margin: 20px 0 10px;
+            font-size: 1.5em;
+        }
+        .product p {
+            font-size: 1.2em;
+            color: #777;
+        }
+        .product button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .product button:hover {
+            background-color: #555;
+        }
+        .testimonials, .about, .contact {
+            margin: 40px 0;
+        }
+        .testimonials h2, .about h2, .contact h2 {
+            margin-bottom: 20px;
+            font-size: 2em;
+            text-align: center;
+        }
+        .testimonial {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .testimonial p {
+            font-style: italic;
+            color: #555;
+        }
+        footer {
+            flex-direction: column;
+            text-align: center;
+        }
+        footer .contact-info {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Nano Protect</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Products</a>
+            <a href="#">FAQs</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="banner">
+        <div>
+            <h1>Ultimate Protection. Unmatched Elegance.</h1>
+            <button>Shop Now</button>
+        </div>
+    </div>
+    <div class="content">
+        <section class="products">
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <h2>Product 1</h2>
+                <p>$19.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <h2>Product 2</h2>
+                <p>$24.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Add more products as needed -->
+        </section>
+        <section class="testimonials">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"Amazing product! My screen has never looked better." - John Doe</p>
+            </div>
+            <div class="testimonial">
+                <p>"The best screen protector I've ever used." - Jane Smith</p>
+            </div>
+        </section>
+        <section class="about">
+            <h2>About Us</h2>
+            <p>We provide high-quality screen protectors designed to keep your devices looking sleek and pristine. Our nano technology ensures ultimate protection and unmatched elegance for all your devices.</p>
+        </section>
+    </div>
+    <footer>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Products</a>
+            <a href="#">FAQs</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="contact-info">
+            <p>Email: info@nanoprotect.com</p>
+            <p>Phone: 123-456-7890</p>
+        </div>
+    </footer>
+</body>
+</html>
